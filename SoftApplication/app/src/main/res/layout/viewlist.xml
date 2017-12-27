@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Rating or Price Filter Value"
+        android:id="@id/editText"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:text="Rating"
+            android:id="@+id/checkbox_cheese"
+            android:layout_height="wrap_content"
+            android:onClick="onpriceClicked"/>
+        <CheckBox
+            android:layout_width="0dp"
+            android:text="Price"
+            android:id="@+id/checkbox_meat"
+
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:onClick="onratingClicked"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/st2">
+            <TextView
+                android:layout_width="0dp"
+                android:text="Name"
+                android:textSize="20dp"
+                android:id="@+id/name"
+                android:gravity="center"
+                android:layout_weight="0.33"
+                android:layout_height="50dp"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:text="Rating"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:id="@+id/price"
+                android:layout_weight="0.33"
+                android:layout_height="50dp"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:text="Price"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:id="@+id/rating"
+                android:layout_weight="0.33"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/customlist"
+            android:layout_height="wrap_content"></ListView>
+    </LinearLayout>
+</LinearLayout>
