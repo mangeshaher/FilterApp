@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "866589015031",
+    "firebase_url": "https://softapp-ffd7c.firebaseio.com",
+    "project_id": "softapp-ffd7c",
+    "storage_bucket": "softapp-ffd7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:866589015031:android:9b965dc4681b4b09",
+        "android_client_info": {
+          "package_name": "com.example.mangeshaher.softapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "866589015031-mqjoom34m0h5mt77gm7dqgmma6u0lq76.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mangeshaher.softapp",
+            "certificate_hash": "b2d06a849056eb4ae346110274084b50a260b217"
+          }
+        },
+        {
+          "client_id": "866589015031-0l9eegmsdtu56kq8vs01vp1kjrino2hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu-eDDr5f27wsiNJRLmMbG-v1utgDlzn8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "866589015031-0l9eegmsdtu56kq8vs01vp1kjrino2hj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

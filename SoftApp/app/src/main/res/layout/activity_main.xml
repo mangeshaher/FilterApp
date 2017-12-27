@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Product Name"
+        android:id="@+id/aher"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:text="Price"
+            android:id="@+id/checkbox_cheese"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckbox1Clicked"/>
+        <CheckBox
+            android:layout_width="0dp"
+            android:text="Rating"
+            android:id="@+id/checkbox_meat"
+
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckbox2Clicked"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/customlist"
+            android:layout_height="wrap_content"></ListView>
+    </LinearLayout>
+</LinearLayout>
